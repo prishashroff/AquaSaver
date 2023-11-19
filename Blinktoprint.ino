@@ -1,6 +1,3 @@
-
-
-
 #include <SPI.h>  
 #include <WiFiNINA.h>
 #include <BlynkSimpleWiFiNINA.h>
@@ -28,12 +25,6 @@ void setup() {
   // connect to Blynk App via Wifi:
   Blynk.begin(auth, ssid, pass);  
 }
-
-
-
-
-
-
 
 void loop() {
 int sensor = analogRead(A1);
